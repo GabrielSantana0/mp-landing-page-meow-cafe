@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap"
+    rel="stylesheet" />
+  <title>Meow Café</title>
+</head>
+
+<body>
+  <div id="Home">
+    <header>
+      <div class="group-links">
+        <img src="./assets/logo.png" class="logo-image" />
+        <p id="uniqueTitle">Meow Café</p>
+        <a class="active" href="#Home">Início</a>
+        <a href="#drinks">Produtos</a>
+        <a href="#About">Sobre</a>
+      </div>
+      <div class="separate-links">
+        <button id="LoginButton">Login</button>
+        <button id="DeliveryButton">Delivery</button>
+      </div>
+      <div class="MeowForm">
+        <form class="LoginForm">
+          <button class="FormOut">Voltar</button>
+          <h2>Login</h2>
+          <div>
+            <img id="icon-email" src="./assets/email.png"></img>
+            <input class="normalInputs" type="email" placeholder="E-Mail" />
+          </div>
+          <div>
+            <img id="icon-password" src="./assets/password.png"></img>
+            <input class="normalInputs" type="password" placeholder="Senha" />
+          </div>
+          <label class="checkBox">
+            <input type="checkbox"> Lembrar-me
+          </label>
+          <button class="LoginButton" type="submit">Entrar</button>
+          <p>Não tem uma conta? <span class="OpenRegisterForm">Clique aqui</span></p>
+          <img id="logoCat" src="./assets/logo.png" />
+        </form>
+      </div>
+
+      <div class="RegisterForm">
+        <form class="UserRegisterForm">
+          <button class="FormOut">Voltar</button>
+          <h2>Cadastro</h2>
+          <div>
+            <input id="uniqueInput" type="text" placeholder="Nome">
+          </div>
+          <div>
+            <img id="icon-email-register" src="./assets/email.png"></img>
+            <input type="email" placeholder="E-Mail" />
+          </div>
+          <div>
+            <img id="icon-register-password" src="./assets/password.png"></img>
+            <input type="password" placeholder="Senha" />
+          </div>
+          <div>
+            <img id="icon-password-confirm" src="./assets/password.png"></img>
+            <input type="password" placeholder="Confirmar Senha" />
+          </div>
+          <button class="RegisterButton" type="submit">Criar Conta</button>
+          <p>Já tem uma Conta? <span class="OpenLoginForm">Clique aqui</span></p>
+          <img id="logoCat" src="./assets/logo.png" />
+        </form>
+      </div>
+
+      <div class="DeliveryForm">
+        <form class="OrdersForm">
+          <button class="FormOut">Voltar</button>
+          <h2>Pedido</h2>
+          <input type="text" placeholder="Nome" />
+          <input type="text" placeholder="Rua" />
+          <input type="number" placeholder="Numero" />
+          <textarea class="TextArea" type="text" placeholder="Algo a mais?"></textarea>
+          <button class="SendOrder" type="submit">Enviar Pedido</button>
+          <p>Não tem uma conta ainda? <span id="OpenLoginForm">Clique aqui</span></p>
+          <img id="logoCatDelivery" src="./assets/logo.png" />
+        </form>
+      </div>
+    </header>
+    <div id="Home" class="HeaderPage">
+      <main>
+        <img src="./assets/headerImage.png" class="header-image" />
+        <h2>Sabor inesquecível</h2>
+        <h1>Meow</h1>
+        <h1>Café</h1>
+        <p>
+          Um lugar perfeito para pais de pets e amantes de café. Nossa cafeteria
+          tem um espaço confortável para você e seu melhor amigo.
+        </p>
+      </main>
+    </div>
+    <div id="drinks" class="CoffePage">
+      <div class="CoffeTitle">
+        <h1>Cafés</h1>
+        <p class="TextTitle">
+          Conheça nossos cafés exclusivos pensados e preparados por nossos
+          baristas renomados.
+        </p>
+        <p id="CoffeButton">Veja Todos ></p>
+      </div>
+      <div class="CoffesContainer">
+        <div class="capuccino">
+          <img src="./assets/cappucino.png" />
+          <p class="value">R$ 24,00</p>
+          <p class="CoffeName">Capuccino</p>
+          <p class="CoffeText">
+            Café expresso , leite vaporizado, espuma e um toque de caramelo.
+          </p>
+          <button class="DeliveryButton">Delivery</button>
+        </div>
+        <div class="cafeComLeite">
+          <img src="./assets/cafeComLeite.png" />
+          <p class="value">R$ 16,00</p>
+          <p class="CoffeName">Café ao Leite</p>
+          <p class="CoffeText">
+            O clássico, amado pelos brasileiros, com um toque de sofisticação!
+          </p>
+          <button class="DeliveryButton">Delivery</button>
+        </div>
+        <div class="CafePreto">
+          <img src="./assets/CafePreto.png" />
+          <p class="value">R$ 12,00</p>
+          <p class="CoffeName">Café Preto</p>
+          <p class="CoffeText">
+            Grãos selecionados feitos no seu método de preparo favorito.
+          </p>
+          <button class="DeliveryButton">Delivery</button>
+        </div>
+      </div>
+    </div>
+    <div id="Croissants" class="CroissantPage">
+      <div class="CroissantTextContainer">
+        <p class="price">R$ 12,00</p>
+        <h1><b>C</b>roissants</h1>
+        <h2>Conheça nossa receita</h2>
+        <p>
+          A nossa receita de Croissant vai te surpreender. Croissants clássicos
+          ou recheados!
+        </p>
+        <p id="CroissantButton">Todos os Croissants ></p>
+      </div>
+      <img src="./assets/Croissant.png" class="CroissantImage" />
+    </div>
+    <div id="Delivery" class="DeliveryPage">
+      <div class="DeliveryMain">
+        <img src="./assets/DeliveryImage.png" class="DeliveryImage" />
+        <div class="DeliveryText">
+          <h2>Levamos até você!</h2>
+          <p>Estamos nos principais aplicativos de Delivery!</p>
+          <button class="DeliveryButton">Delivery</button>
+        </div>
+      </div>
+    </div>
+    <div id="About" class="AboutPage">
+      <div class="leftContainer">
+        <p>Sobre nós</p>
+        <h2>
+          Nós oferecemos uma experiência inesquecível para amantes de café e
+          pais de pet!
+        </h2>
+      </div>
+      <div class="rightContainer">
+        <p id="RightContainerTitle">O melhor lugar para apreciar o seu café</p>
+        <p>
+          No Meow Cafe, priorizamos a criação de um espaço onde tanto os seres
+          humanos quanto seus animais de estimação possam relaxar e desfrutar.
+        </p>
+        <p>
+          Nosso design interior é inspirado na harmonia e conforto, com sofás
+          aconchegantes, iluminação suave e uma decoração que remete à natureza
+          e à alegria que os animais trazem para nossas vidas.
+        </p>
+      </div>
+    </div>
+    <div id="Location" class="LocationPage">
+      <div class="LocationMain">
+        <div class="LocationLeft">
+          <h1>Meow
+            <b>E</b>njoy
+          </h1>
+          <h2>Todos os sábados e domingos</h2>
+          <p>Venha tomar o seu brunch com a gente!</p>
+          <p id="LocationButton">Faça uma reserva ></p>
+        </div>
+        <div class="LocationRight">
+          <h2>Onde estamos</h2>
+          <hr>
+          <p>Você pode nos encontrar no endereço:</p>
+          <p class="LocationText"><img src="./assets/LocImage.png" />Rua do Miado 234, Gatolândia</p>
+        </div>
+        <img src="./assets/LocationImage.png" class="LocationImage" />
+      </div>
+    </div>
+    <hr class="line-bottom">
+    <footer>
+      <div id="Footer" class="Information">
+        <h2>Informações</h2>
+        <p>Todos os direitos reservados Meow Cafe Ltda.
+          <br>
+          <br>
+          Um lugar perfeito para pais de pets e amantes de café!
+        </p>
+        <div class="InformationImage">
+          <img src="./assets/instagram.png" />
+          <img src="./assets/facebook.png" />
+          <img src="./assets/whatsapp.png" />
+        </div>
+      </div>
+      <div class="Links">
+        <h2>Links Úteis</h2>
+        <a href="#Home">Início</a>
+        <a href="#About">Sobre</a>
+        <a href="#drinks">Produtos</a>
+        <a href="#Delivery">Delivery</a>
+        <a href="#Home">Login</a>
+      </div>
+      <div class="About">
+        <h2>Institucional</h2>
+        <p><span>CNPJ:</span> XX. XXX. XXX/0001-XX </p>
+        <p><span>Endereço:</span> Rua do Miado 234, Gatolândia
+          Política de Privacidade
+          Dúvidas Frequentes
+          Ajuda
+          Acessibilidade </p>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
