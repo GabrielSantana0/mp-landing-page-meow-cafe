@@ -416,7 +416,7 @@ main {
   .DeliveryImage {
     overflow-x: hidden;
     position: absolute;
-    top: 320%;
+    top: 340%;
   }
 
   .DeliveryText {
@@ -524,7 +524,7 @@ main {
 
   .LocationImage {
     position: absolute;
-    top: 505%;
+    top: 527%;
     left: 35%;
     z-index: 2;
   }

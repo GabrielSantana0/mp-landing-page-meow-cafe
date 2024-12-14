@@ -20,7 +20,7 @@ const deliveryForm = document.querySelector(".DeliveryForm")
 
 
 deliveryButton.addEventListener("click", () => {
-   deliveryForm.style.right = "40%";
+  deliveryForm.style.right = "40%";
 })
 
 OutFormButton.addEventListener("click", () => {
@@ -58,11 +58,11 @@ registerButtonToLogin.addEventListener("click", () => {
 
 // Links dinamicos
 
- const links = document.querySelectorAll('.group-links a');
+const links = document.querySelectorAll('.group-links a');
 
- links.forEach(link => {
-     link.addEventListener('click', () => {
-         links.forEach(link => link.classList.remove('active'));
-         link.classList.add('active');
-     });
- });
+links.forEach(link => {
+    link.addEventListener('click', () => {
+      links.forEach(link => link.classList.remove('active'));
+        link.classList.add('active');
+    });
+});
