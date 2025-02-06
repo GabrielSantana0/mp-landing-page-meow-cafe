@@ -30,7 +30,7 @@ OutFormButton.addEventListener("click", () => {
 
 // Formulario Delivery levar até o Formulario de Login
 
-const goLoginFormButton = document.getElementById("OpenLoginForm")
+const goLoginFormButton = document.getElementById("OpenLoginForm");
 
 goLoginFormButton.addEventListener("click", () => {
   registerForm.style.left = "35%"
